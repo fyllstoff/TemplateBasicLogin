@@ -1,0 +1,91 @@
+/* Estilo general del cuerpo */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #6a11cb, #2575fc); /* Fondo degradado */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Título principal */
+h2 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Contenedor del formulario */
+form {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Etiquetas */
+form label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Campos de entrada */
+form input {
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s;
+}
+
+/* Efecto hover/focus en los campos de entrada */
+form input:focus {
+    border-color: #6a11cb;
+    box-shadow: 0 0 5px rgba(106, 17, 203, 0.3);
+}
+
+/* Botón de enviar */
+form button {
+    background: #6a11cb;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+/* Efecto hover en el botón */
+form button:hover {
+    background: #2575fc;
+}
+
+/* Texto adicional para registro */
+p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #fff;
+}
+
+/* Enlace a registro */
+p a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hover en el enlace */
+p a:hover {
+    text-decoration: underline;
+}
